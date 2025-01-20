@@ -1,1 +1,2 @@
 # Chatbot-With-LangGraph
+I have created a project chatbot using LangGraph, which is essentially an agentic AI where agents perform different tasks in a cyclic manner. It is built on top of the LangChain library, Okay then I'm utilizing Groq and LangSmith APIs along with the Gemma2-9b model. First, I defined the chatbot, then built a graph, connected the chatbot to the graph, compiled the entire graph, and set a condition where if the user enters "quit," the chatbot says goodbye. Otherwise, just like ChatGPT, the chatbot can answer any question asked.
